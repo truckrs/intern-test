@@ -8,13 +8,13 @@ Following tools have to be installed in order to run the environment :
 * A NodeJs environment with both node and npm (https://nodejs.org/en/download )
 * A Flutter environment for App ( https://docs.flutter.dev/get-started/install )
 
-Please use your favorite IDE, on my perspective I use IntelliJ IDEA which have great plugin to work with.
+Please use your favorite IDE, on my perspective I use IntelliJ IDEA which have a ton of great plugins to work with.
 
 ## Environment 
 
 ### Overview
 
-This is a very simplistic environment of our Truckrs Platform compose by a Flutter app, a NodeJs back and a PostgreSQL Databse.
+This is a very simplistic environment of our Truckrs Platform composed by a Flutter app, a NodeJs back and a PostgreSQL Databse.
 
 
         +---------+                    +----------------+                 ____________ 
@@ -26,7 +26,7 @@ This is a very simplistic environment of our Truckrs Platform compose by a Flutt
         |         |                    |                |                (            )
         +---------+                    +----------------+                 ____________ 
 
-Each component source or deployment is in a specific folder :
+Each component source or deployment is located in a specific folder :
 
 - ./app    -->  the Flutter App
 - ./back   -->  the NodeJs back Server
@@ -61,10 +61,13 @@ Close your IDEs
 ## What is requested
 
 Guys, I need your help !!!!! 
-I broke everything regarding the log-in from the App to our Truckrs platform, could you please help ?
 
-1) First of all, I would like to hide the password in the app, I heard it is but I don't know how to do it.
-2) I really don't know why I am not able anymore to log my account, request call from the app failed each time, could you please have a look and fix it ?
+![](./help-emoji.png)
+
+I broke everything regarding the App log-in to our Truckrs platform, could you please give me a hand ?
+
+1) First of all, I would like to hide the password in the field app, I heard it is possible however I don't know how to do it.
+2) I really don't know why I am not able anymore to log in to my account, request call from the app failed each time, could you please have a look and fix it ?
 3) Password is stored in plain text in the Database, looks it is not very secure...any idea to change that ?
 4) In the home page, I remember that I had to personalize the welcome message with the first name of the user. This data is stored in database but implementation looks so hard : could be great if you could make it.
 
